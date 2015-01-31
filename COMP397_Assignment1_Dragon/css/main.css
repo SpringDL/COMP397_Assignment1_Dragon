@@ -1,0 +1,72 @@
+﻿body {
+background: radial-gradient(ellipse at center,  #a89f9f 0,#db97e5 36%,#808080 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
+}
+
+/* styling for slides that are inactive */
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+    /* styling for slides that are active*/
+    .impress-enabled .step.active {
+        opacity: 1;
+    }
+
+
+/* styling for all slides */
+.slide {
+    display: block;
+    width: 700px;
+    height: 600px;
+    padding: 40px 60px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: #000000;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* styling for slide paragraphs */
+.slide p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+
+/* styling for slide links */
+.ahoy {
+        color: #000000;
+        text-decoration: none;
+        background-color: #e2c3f3;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #b6ff00;
+}
+
+/* styling for slide text area */
+.slide .slide-text {
+        height: 550px;
+
+    }
+
+/* styling for menu section of each slide */
+div.menu {
+    border-top: 2px solid black;
+    padding-top: 25px;
+    text-align: center;
+}
+
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
