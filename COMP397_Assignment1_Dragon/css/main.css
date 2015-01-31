@@ -1,4 +1,12 @@
-﻿body {
+﻿/*
+    FileName: main.css
+    Author: Danny Luk 300709186
+    Last Modified By: Danny Luk
+    Date Last Modified: 30 Jan. 2015
+    Desc: This is the style sheet for index.html
+*/
+
+body {
 background: radial-gradient(ellipse at center,  #a89f9f 0,#db97e5 36%,#808080 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 );
 }
