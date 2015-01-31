@@ -16,6 +16,7 @@
 </head>
 <body>
     <div id="impress">
+        <!--Title-->
         <div id="Title" class="step slide" data-x="0" data-y="0" data-z="0">
             <div class="slide-text">
                 <h1>The Name of This Story is Called This is the Name of the Story: Episode 4</h1>
@@ -25,6 +26,28 @@
             </div>
         </div>
 
+        <!--Conditional Structure:
+            
+                                    Title
+                                      |
+                                    SlideA
+                                   /      \
+                           SlideB1          SlideB2               
+                         /       /          \       \
+                 SlideC1        /            \        SlideC4                        
+                /     /      SlideC2      SlideC3      \     \                        
+         SlideD1     /      /      /      \      \      \     SlideD8 
+              SlideD2      /      /        \      \      SlideD7            
+                    SlideD3      /          \      SlideD6     
+                          SlideD4            SlideD5
+                                               <o>
+
+            SlideD5 = Good Ending
+            Rest = Bad Ending
+        -->
+
+
+        <!--A-->
         <div id="SlideA" class="step slide" data-x="0" data-y="1000" data-z="0">
             <div class="slide-text">
                 <p>You find yourself in a room with no windows, doors, or any clear way of entry into and out of the room for that matter. The room is entirely empty save for a wombat sleeping on a small radiator in the South-East corner of the room.</p>
@@ -38,7 +61,7 @@
         </div>
 
 
-
+        <!--B-->
         <div id="SlideB1" class="step slide" data-x="-4000" data-y="2000" data-z="0">
             <div class="slide-text">
                 <p>You vigorously stretch your arms and legs as you prepare for the arduous task of dropkicking the wombat off the Radiator. With a ferocious roar, you leap across the room and dropkick the wombat sleeping on top of the radiator. The wombat is sent flying and ricochets off of the wall and then the ceiling before proceeding to slam into the dead centre of the room's floor. The wombat shatters into 6 different pieces to reveal a novelty can of paper snakes, a notebook, an old hourglass, and a paperclip. It turns out the wombat looking thing was just a hollow pinata.</p>
@@ -51,6 +74,20 @@
             </div>
         </div>
 
+        <div id="SlideB2" class="step slide" data-x="4000" data-y="2000" data-z="0">
+            <div class="slide-text">
+                <p>For reasons unknown, you decide that it would be in your best interest to lick the radiator. You crouch down next to the radiator and tap it with the tip of your tongue. You consider for a second the possibilities of opening a new bank acount at CHS Banking before you brush it off as a bad idea. You lick the radiator with a satisfying slurp. It tastes of Bacon. You are hesitant at first, but eventually you decide to press your tongue against the radiator. As you plunge into a state of ecstacy over the overwhelming flavours of bacon, the wombat catches the alluring scent of your tongue cooking against the radiator and awakes from its slumber. The wombat unleashes a wide yawn before it hops onto and off of your head and knocking you back. It lunges towards your tongue and latches on with it's teeth like a snapping turtle.</p>
+            </div>
+            <div class="menu">
+                <p>
+                    <a class="ahoy" href="#SlideC3">Run Around and Panic!!</a>
+                    <a class="ahoy" href="#SlideC4">Take a Nap</a>
+                </p>
+            </div>
+        </div>
+
+
+        <!--C-->
         <div id="SlideC1" class="step slide" data-x="-5000" data-y="3000" data-z="0">
             <div class="slide-text">
                 <p>You open and start to read through the Notebook. It appears to be a journal chronicling the heroic exploits of the legendary hero, Mabusakihitsuboshimachu Konowucharles, and her decent into the hidden, forbidden, sacred church of Exodia to retrieve the lost ark of the Bumblebloors. As you read through Mabusakihitsuboshimachu's journal, you begin to hear a hissing sound emanate from the old hourglass. You are caught off guard and stumble backwards as the hourglass began to shake violently before exploding in a bright pink flash of light akin to a flashbang. Blinded, you stumble about to regain your balance, but find it increasingly difficult due to the ringing in your ears. You lie on cold hard floor for a while as you wait for the effects to subside. You sit up as your vision begins to return to you. Everything is blurry, but you can make out a large faint orange shape before you. What do you see?</p>
@@ -70,37 +107,37 @@
             <div class="menu">
                 <p>
                     <a class="ahoy" href="#SlideD3">Hurt Yourself in Confusion</a>
-                    <a class="ahoy" href="#SlideD4">Cut Your Own HP and Maximized Your Attack!</a>
+                    <a class="ahoy" href="#SlideD4">Cut Your Own HP and Maximize Your Attack!</a>
                 </p>
             </div>
         </div>
 
-        <div id="SlideD3" class="step slide" data-x="-4000" data-y="4000" data-z="0">
+        <div id="SlideC3" class="step slide" data-x="3000" data-y="3000" data-z="0">
             <div class="slide-text">
-                <p>Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself.</p>
-                <br />
-                <p>Bad Ending</p>
+                <p>You are running around in circles with your arms flailing in the air. You accelerate and accelerate as you keep running. It isn't too long before you are running faster than Mach 7.</p>
             </div>
             <div class="menu">
                 <p>
-                    <a class="ahoy" href="#Title">Start Over</a>
+                    <a class="ahoy" href="#SlideD5">Keep Running</a>
+                    <a class="ahoy" href="#SlideD6">Stop Running</a>
                 </p>
             </div>
         </div>
 
-        <div id="SlideD4" class="step slide" data-x="-2000" data-y="4000" data-z="0">
+        <div id="SlideC4" class="step slide" data-x="5000" data-y="3000" data-z="0">
             <div class="slide-text">
-                <p>You strike the wombat with all your might, but it is not super effective. The Wombat incinerates you with some kind of sunlight powered solar beam. You are reduced to nothing but a pile of ashes.</p>
-                <br />
-                <p>Bad Ending</p>
+                <p>Unfazed by the wombat that has painfully latched onto your scorched, bacon-scented tongue, you decide to tap a nap. In your sleeping state you dream of magnificent glass marbles. Each one is so perfectly round and delicately coloured in a wide assortment of patterns.</p>
             </div>
             <div class="menu">
                 <p>
-                    <a class="ahoy" href="#Title">Start Over</a>
+                    <a class="ahoy" href="#SlideD7">You Dream of Rolling the Marbles Down a Large Hill</a>
+                    <a class="ahoy" href="#SlideD8">Wake up</a>
                 </p>
             </div>
         </div>
 
+
+        <!--D-->
         <div id="SlideD1" class="step slide" data-x="-6000" data-y="4000" data-z="0">
             <div class="slide-text">
                 <p>Nope, It's actually a speeding train. You get pulverized and die.</p>
@@ -127,49 +164,28 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-        <div id="SlideB2" class="step slide" data-x="4000" data-y="2000" data-z="0">
+        <div id="SlideD3" class="step slide" data-x="-4000" data-y="4000" data-z="0">
             <div class="slide-text">
-                <p>For reasons unknown, you decide that it would be in your best interest to lick the radiator. You crouch down next to the radiator and tap it with the tip of your tongue. You consider for a second the possibilities of opening a new bank acount at CHS Banking before you brush it off as a bad idea. You lick the radiator with a satisfying slurp. It tastes of Bacon. You are hesitant at first, but eventually you decide to press your tongue against the radiator. As you plunge into a state of ecstacy over the overwhelming flavours of bacon, the wombat catches the alluring scent of your tongue cooking against the radiator and awakes from its slumber. The wombat unleashes a wide yawn before it hops onto and off of your head and knocking you back. It lunges towards your tongue and latches on with it's teeth like a snapping turtle.</p>
+                <p>Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself. Stop hitting yourself.</p>
+                <br />
+                <p>Bad Ending</p>
             </div>
             <div class="menu">
                 <p>
-                    <a class="ahoy" href="#SlideC3">Run Around and Panic!!</a>
-                    <a class="ahoy" href="#SlideC4">Take a Nap</a>
+                    <a class="ahoy" href="#Title">Start Over</a>
                 </p>
             </div>
         </div>
 
-        <div id="SlideC3" class="step slide" data-x="3000" data-y="3000" data-z="0">
+        <div id="SlideD4" class="step slide" data-x="-2000" data-y="4000" data-z="0">
             <div class="slide-text">
-                <p>You are running around in circles with your arms flailing in the air. You accelerate and accelerate as you keep running. It isn't too long before you are running faster than Mach 7.</p>
+                <p>You strike the wombat with all your might, but it is not very effective. The Wombat incinerates you with some kind of sunlight powered solar beam. You are reduced to nothing but a pile of ashes.</p>
+                <br />
+                <p>Bad Ending</p>
             </div>
             <div class="menu">
                 <p>
-                    <a class="ahoy" href="#SlideD5">Keep Running</a>
-                    <a class="ahoy" href="#SlideD6">Stop Running</a>
-                </p>
-            </div>
-        </div>
-
-        <div id="SlideC4" class="step slide" data-x="5000" data-y="3000" data-z="0">
-            <div class="slide-text">
-                <p>Unfazed by the wombat that has painfully latched onto your scorched, bacon-scented tongue, you decide to tap a nap. In your sleeping state you dream of magnificent glass marbles. Each one is so perfectly round and delicately coloured in a wide assortment of patterns.</p>
-            </div>
-            <div class="menu">
-                <p>
-                    <a class="ahoy" href="#SlideD7">You Dream of Rolling the Marbles Down a Large Hill</a>
-                    <a class="ahoy" href="#SlideD8">Wake up</a>
+                    <a class="ahoy" href="#Title">Start Over</a>
                 </p>
             </div>
         </div>
